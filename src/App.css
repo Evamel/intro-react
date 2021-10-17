@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Architects Daughter', cursive;
+  background-color: darkslategrey;
 }
 
-.App-link {
-  color: #61dafb;
+#root{
+  margin: 10rem;
+  padding: 3rem;
+  background-color:#A9A9A9;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px black;
+  width: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+margin-top: 3rem;
+margin-bottom: 2rem;
+text-align: center;
+color: black;
+font-size: 4rem
+}
+
+.text{
+  border: none;
+  border-radius: 30px;
+  height: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.form{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+height: 2rem;
+width: 500px;
+margin-bottom: 50px;
+}
+
+button{
+  border: none;
+  font-size: 15px;
+}
+
+.addBtn{
+  background-color: darkslategrey;;
+  color: #A9A9A9;
+  border-radius: 30px;
+  height: 2rem;
+  padding: 5px;
+  margin: 15px;
+  width: 100px;
+  margin-bottom: 2rem;
+}
+
+.addBtn:hover{
+  box-shadow: 5px 5px 5px black;
+}
+
+.deleteBtn{
+  background-color: maroon;
+  color: #A9A9A9;
+  border-radius: 30px;
+  height: 2rem;
+  padding: 5px;
+  margin: 15px;
+  width: 100px;
+}
+
+.deleteBtn:hover{
+  box-shadow: 5px 5px 5px black;
+}
+
+label{
+  font-size: 30px;
+  margin-top: 3rem;
+}
+
+.left{
+  text-align: center;
+  font-size: 20px;
+}
+
+.checkbox{
+  height: 15px;
+  margin-right: 10px;
 }
